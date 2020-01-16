@@ -154,10 +154,12 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-
+        print('I add this line to make changes only Line_1')
+        print('I add this line to make changes only Line_2')
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
+
 
 
 if __name__ == "__main__":
