@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+' add Date created here'
 
 ### Project Title
-Replace the Project Title
+'add Project Title here '
 
 ### Description
-Describe what your project is about and what it does
+'add Description here'
 
 ### Files used
-Include the files used
+'add Files  here'
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+'add Credits here'
 
