@@ -145,16 +145,20 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+
 def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
-
+        # here I will add my changes to refactoring brach
         time_stats(df)
+        print('the first fuction run without errors _refactoring_1_')
         station_stats(df)
+        print('the second fuction run without errors _refactoring_2_')
         trip_duration_stats(df)
+        print('the third fuction run without errors _refactoring_3_')
         user_stats(df)
-
+        print('the fourth one run without errors _refactoring_4_')
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
