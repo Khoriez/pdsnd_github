@@ -16,3 +16,5 @@ README.md
 Wikipedia.com
 stackoverflow.com
 
+###
+Thanks to Udacity Team  And AAL Team
